@@ -1,0 +1,93 @@
+<html>
+<head>
+
+    <title>latihan css</title>
+
+<style>
+    *{
+        padding: 10px;
+        margin: 10px;
+        height: 100%;
+        box-sizing: border-box;
+    }
+    body{
+        background-color:darkseagreen;
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        font-size:large;
+        background-color:lightcoral;
+        text-align:center;
+        padding: 20px;
+        display:flex;
+        justify-content: space-between;
+        flex: 3;
+    }
+    section{
+        background-color:lightsalmon;
+        width: 100%;
+        display: flex;
+        padding: 20px;
+        column-gap: 10px;
+    }
+    aside{
+        background-color:khaki;
+        font-family: monospace;
+        font-size: 40pt;
+        display: flex;
+        padding: 10px;
+        width: 20%;
+    }
+    main{
+        background-color:darkslategray; 
+        font style: inherit;
+        display: flex;
+        flex: 10;
+    }
+
+    article{
+        background-color: beige;
+        width:100%;
+    }
+
+    footer{
+        flex:1;
+        display:flex;
+        background-color:sienna;
+        font-size: xx-large;
+        text-align:center;
+    }
+    ul{
+        display: flex;
+        list-style: none;
+    }
+    li{
+        margin-right: 5px;
+    }
+</style> 
+</head>
+
+<body>
+    <header>HEADER
+        <nav>
+            <ul>
+                <li><a href="https://dramaqu.bond/nonton-taxi-driver-2021-subtitle-indonesia/">Home</a></li>
+                <li><a href="https://dramaqu.bond/nonton-taxi-driver-season-2-2023-subtitle-indonesia/">About</a></li>
+                <li><a href="https://dramaqu.bond/nonton-its-okay-to-not-be-okay-2020-subtitle-indonesia/">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <aside>sidebar</aside>
+        <section>
+            <article>konten 1</article>
+            <article>konten 2</article>
+            <article>konten 3</article>
+        </section>
+    </main>
+
+    <footer>FOOTER</footer>
+</body>
+
+</html>
